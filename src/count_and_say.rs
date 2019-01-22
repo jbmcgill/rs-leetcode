@@ -4,7 +4,7 @@ pub mod solution {
   fn count_and_say_alg( s: String ) -> String{
     let mut cur_char : char = '-';
     let mut cur_count : i32 = 0;
-    let mut result : String = String::from("");
+    let mut result : String = String::new();
     for c in s.chars() {
       if c == cur_char {
         cur_count = cur_count+1;
