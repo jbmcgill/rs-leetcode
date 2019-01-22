@@ -2,7 +2,7 @@ pub mod solution {
 
   pub fn str_str( haystack: String, needle: String ) -> i32 {
     let nlen = needle.len();
-    for (hidx, hval) in haystack.chars().enumerate() {
+    for (hidx, _hval) in haystack.chars().enumerate() {
       if haystack[hidx..(hidx+nlen)] == needle {
         return hidx as i32;
       }

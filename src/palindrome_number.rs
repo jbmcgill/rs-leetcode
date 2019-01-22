@@ -2,7 +2,7 @@ pub mod solution {
   pub fn reverse( x: i32 ) -> i32 {
     let mut number : i32 = x;
     let mut result : i32 = 0;
-    let mut last_digit : i32 = 0;
+    let mut last_digit : i32;
     while number > 0 {
       last_digit = number % 10;
       result = (result * 10) + last_digit;
