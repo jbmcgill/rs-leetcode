@@ -5,3 +5,4 @@ pub mod remove_element;
 pub mod search_insert_position;
 pub mod implement_strstr;
 pub mod count_and_say;
+pub mod roman_to_integer;
